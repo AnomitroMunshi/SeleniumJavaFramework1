@@ -24,6 +24,7 @@ public class listeners implements ITestListener {
 		try {
 			base.getScreenshot(result.getName());
 		} catch (IOException e) {
+			System.out.println(e.getCause());
 			e.printStackTrace();
 		}
 		
