@@ -1,0 +1,8 @@
+07:20:24.564 [main] INFO  academy.Base - Awsmness
+07:20:29.343 [main] INFO  academy.Base - Driver Initialized
+07:20:43.674 [main] INFO  academy.Base - navigated to Homepage
+07:20:47.011 [main] INFO  academy.Base - Driver CLosed
+07:21:04.829 [main] INFO  academy.Base - Successfully validated NavBar
+08:25:00.296 [TestNG-tests-2] INFO  academy.Base - Driver Initialized
+08:25:28.472 [TestNG-tests-2] INFO  academy.Base - navigated to Homepage
+08:25:42.088 [TestNG-tests-3] INFO  academy.Base - Successfully validated NavBar
