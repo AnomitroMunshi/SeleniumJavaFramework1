@@ -40,7 +40,7 @@ public class Base {
 		}else if(browserName=="firefox") {
 			//for FireFox
 		}else {
-			//for IE
+			//for I
 		}
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
