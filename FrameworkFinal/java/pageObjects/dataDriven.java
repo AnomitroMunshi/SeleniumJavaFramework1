@@ -42,12 +42,11 @@ public ArrayList<String> getData(int testcaseNumber) throws IOException  {
 					if(value.getStringCellValue().equalsIgnoreCase("TestCases")) {
 						System.out.println("Found required column!");
 						column=k;
+						break;
 					}
 					k++;
 				}
 				System.out.println("Required column index-->"+column);
-				
-				//once column is identified , scan to identify purchase row
 				
 				while(rows.hasNext()) {
 					Row r=rows.next();

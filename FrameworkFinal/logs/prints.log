@@ -1,3 +1,5 @@
 08:26:36.079 [TestNG-tests-2] INFO  academy.Base - Driver Initialized
 08:27:03.378 [TestNG-tests-2] INFO  academy.Base - navigated to Homepage
 08:27:15.316 [TestNG-tests-3] INFO  academy.Base - Successfully validated NavBar
+06:20:30.402 [TestNG-tests-2] INFO  academy.Base - Driver Initialized
+06:20:58.720 [TestNG-tests-2] INFO  academy.Base - navigated to Homepage

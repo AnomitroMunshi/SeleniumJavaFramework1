@@ -30,7 +30,7 @@ public class Base {
 		
 		prop=new Properties();
 		
-		FileInputStream fis=new FileInputStream(projectpath+"/src/main/resources/resources/data.properties");
+		FileInputStream fis=new FileInputStream(projectpath+"\\src\\main\\resources\\resources\\data.properties");
 		prop.load(fis);
 		String browserName=prop.getProperty("browser");
 		if(browserName.equalsIgnoreCase("chrome")) {
@@ -42,7 +42,9 @@ public class Base {
 		}else {
 			//for I
 		}
-		
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(20,TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
 	}

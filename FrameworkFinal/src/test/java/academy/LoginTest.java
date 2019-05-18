@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 import pageObjects.LandingPage;
 import pageObjects.LoginPage;
 import pageObjects.dataDriven;
+import resouces.FlashUtility;
 
 public class LoginTest extends Base{
 
@@ -40,6 +41,9 @@ public class LoginTest extends Base{
 				lp.getEmail().sendKeys(username);
 				lp.getPass().sendKeys(pass);
 				log.info(text);
+				
+				FlashUtility.blinkHighlight(lp.clickLogin(), driver);
+				
 				lp.clickLogin().click();
 		
 		

@@ -5,6 +5,17 @@
     <listener class-name="academy.listeners"/>
     <listener class-name="resouces.ExtentReporterNG"/>
   </listeners>
+  <test thread-count="5" name="Validating Navbar(failed)" parallel="tests">
+    <classes>
+      <class name="academy.ValidateNavbar">
+        <methods>
+          <include name="validateNavBarTest"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- academy.ValidateNavbar -->
+    </classes>
+  </test> <!-- Validating Navbar(failed) -->
   <test thread-count="5" name="Validating title(failed)" parallel="tests">
     <classes>
       <class name="academy.Validatetitle">
